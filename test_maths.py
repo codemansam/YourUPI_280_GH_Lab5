@@ -32,7 +32,7 @@ class MathsTest(unittest.TestCase):
         result = maths.convert_base(31,16)
         self.assertEqual("1F", result, "maths.convert_base did not return the expected result for a conversion to a base over 10")
     
-    def test_fibonacci(self):
+    def test_factorial(self):
         result = maths.fibonacci(4)
         self.assertEqual(24, result)
         

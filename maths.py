@@ -43,7 +43,9 @@ def convert_base(num, n):
     except:
         return new_num_string
     
-
+    def fibonacci(number):
+        
+        
         
         
         

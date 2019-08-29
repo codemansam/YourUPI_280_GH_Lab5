@@ -31,7 +31,12 @@ class MathsTest(unittest.TestCase):
         ''' Tests the mats.convert_base function with a base over 10 '''
         result = maths.convert_base(31,16)
         self.assertEqual("1F", result, "maths.convert_base did not return the expected result for a conversion to a base over 10")
-       
+    
+    def test_fibonacci(self):
+        result = maths.fibonacci(4)
+        self.assertEqual(24, result)
+        
+        
 # This allows running the unit tests from the command line (python test_maths.py)
 if __name__ == '__main__':
     unittest.main()
